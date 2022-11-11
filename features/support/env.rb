@@ -2,10 +2,8 @@ require "rubygems"
 require 'watir'
 
 Before do |scenario|
-
-browser = Watir::Browser.new
+  browser = Watir::Browser.new
   $browser = browser
-
 
 end
 
